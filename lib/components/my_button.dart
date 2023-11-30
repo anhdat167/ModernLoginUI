@@ -13,12 +13,12 @@ class MyButton extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         margin: const EdgeInsets.symmetric(horizontal: 25),
         decoration: BoxDecoration(
-          color: Colors.black,
-          borderRadius: BorderRadius.circular(8),
+          color: Color(0xFF1A72DD),
+          borderRadius: BorderRadius.circular(16),
         ),
         child: const Center(
           child: Text(
-            "Sign In",
+            "Đăng nhập",
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
